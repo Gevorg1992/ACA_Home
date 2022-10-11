@@ -1,0 +1,7 @@
+#!/bin/bash
+
+name="Gevorg"
+lastname="Margaryan"
+age="29"
+gender="M"
+echo $name $lastname $age $gender

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read -p "number" a
+
+if (($a % 3 == 0))
+    then 
+	echo "Number is divisible by 3"
+    else
+	echo "Number is not divisible by 3"
+fi	
+

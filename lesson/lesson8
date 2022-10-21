@@ -2,9 +2,9 @@
 
 read -p "number" a
 
-if (($a % 3 == 0)) && (($a % 5 == 0)) && (($a % 7 == 0))
+if (($a % 3 == 0)) || (($a % 5 == 0)) || (($a % 7 == 0))
     then 
-	echo "Number is divisible by 3 and 5 and 7"
+	echo "Number is divisible by 3 or 5 or 7"
     else
 	echo "Number is not divisible by 3 or 5 or 7"
 fi	

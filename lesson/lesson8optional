@@ -1,0 +1,11 @@
+#!/bin/bash
+
+mkdir -p even
+mkdir -p add
+read -p "insert the number" a
+if (($a % 2 == 0))
+then 
+echo `touch even/$a.txt && ls $_`
+else
+echo `touch add/$a.txt && ls $_`
+fi

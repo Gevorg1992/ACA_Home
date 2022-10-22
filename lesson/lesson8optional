@@ -3,9 +3,12 @@
 mkdir -p even
 mkdir -p add
 read -p "insert the number" a
+for a in {1..20}
+do
 if (($a % 2 == 0))
 then 
 echo `touch even/$a.txt && ls $_`
 else
 echo `touch add/$a.txt && ls $_`
 fi
+done
